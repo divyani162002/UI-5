@@ -1,0 +1,301 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@500&family=Dancing+Script:wght@700&family=Noto+Sans&display=swap');
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+   
+}
+
+
+
+.container{
+    width:100%;
+    height:auto;
+    background-color: rgb(230,229,230);
+}
+
+.navbar{
+    width:100%;
+    height:100px;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-inline:100px;
+}
+
+.left{
+    width:40%;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+.left h2{
+    font-size:30px;
+}
+
+.left ul{
+    width:400px;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.left ul li{
+    list-style:none;
+}
+
+.right button{
+    width:150px;
+    height:50px;
+    border:none;
+    background-color:orange;
+    border-radius:30px;
+    border:1px solid black;
+}
+
+.her-sec{
+    width:100%;
+    height:auto;
+    display: flex;
+}
+
+.her-text{
+    width:60%;
+    height:auto;
+    padding-inline:100px;
+    padding-block:30px;
+}
+
+.her-text h1{
+    font-size:90px;
+    font-family: 'Caveat', cursive;
+  
+}
+
+.her-text span{
+    width:500px;
+    margin-block:50px;
+}
+
+.her-text span{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+   
+}
+
+.her-text span button{
+    width:230px;
+    height:60px;
+    background-color:black;
+    color:white;
+    font-size:15px;
+    border:none;
+    border-radius:5px;
+    
+   
+
+}
+
+#span-1{
+    width:600px;
+}
+
+.her-text span h2{
+    font-size:60px;
+    width:340px;
+    
+
+}
+
+.her-text span p{
+    font-size:15px;
+    
+}
+
+.img{
+    width:40%;
+    height:auto;
+    display:flex;
+    align-items:center;
+    justify-content: center;
+   
+}
+
+
+
+
+@media (max-width:768px){
+    .container{
+        width:100%;
+        height:auto;
+    }
+
+    .navbar{
+        width:100%;
+        height:auto;
+        padding:2%;
+        
+    }
+    
+    .left{
+        width:70%;
+
+    }
+
+  
+
+    .left ul li{
+        font-size:13px;
+    }
+
+    .right button{
+        width:150px;
+        height:45px;
+        border-radius:25px;
+    }
+
+    .her-sec{
+        flex-direction:column;
+    }
+
+    .her-text{
+        width:100%;
+        height:auto;
+        padding:10%;
+    }
+
+    .her-text h1{
+        text-align: center;
+    }
+
+    .her-text span{
+        width:100%;
+    }
+
+    .her-text span button{
+        width:230px;
+        height:60px;
+        font-size:15px;
+        border-radius:5px;
+    }
+
+    #span-1{
+        width:100%;
+    }
+
+   
+   
+
+    .img{
+        width:100%;
+        height:auto;
+        padding:20%;
+    }
+
+    .img img{
+        width:100%;
+        height:100%;
+    }
+    
+
+
+}
+
+
+
+@media (max-width:480px){
+    .container{
+        width:100%;
+        height:auto;
+    }
+
+    .navbar{
+        width:100%;
+        height:auto;
+        padding:2%;
+        
+    }
+    
+    .left{
+        width:50%;
+
+    }
+
+   
+
+    .left ul{
+        display:none;
+
+    }
+
+    .left ul li{
+        font-size:13px;
+    }
+
+    .right button{
+        width:120px;
+        height:45px;
+        border-radius:25px;
+    }
+    .her-sec{
+        flex-direction:column;
+    }
+
+    .her-text{
+        width:100%;
+        height:auto;
+        padding:5%;
+    }
+
+    .her-text h1{
+        font-size:50px;
+        text-align: center;
+    }
+
+    .her-text span{
+        width:100%;
+        flex-direction:column;
+    }
+
+    .her-text span button{
+        width:200px;
+        height:50px;
+        font-size:12px;
+        border-radius:5px;
+        margin-block:10px;
+    }
+
+    #span-1{
+        width:100%;
+    }
+
+    .her-text span h2{
+        width:100%;
+        text-align: center;
+       
+    }
+
+    .her-text span p{
+       font-size:15px;
+       text-align: center;
+    }
+
+    .img{
+        width:100%;
+        height:auto;
+        padding:5%;
+    }
+
+    .img img{
+        width:100%;
+        height:100%;
+    }
+    
+
+
+}
